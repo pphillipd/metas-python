@@ -9,8 +9,8 @@ app = Flask(__name__)
 ARQUIVO_JSON = 'tarefas.json'
 
 # --- CONFIGURAÇÕES DO TELEGRAM ---
-TELEGRAM_TOKEN = '8762894477:AAEojo_GclP8Ktr9lY9qv2VKnU9a81rGTm4'
-TELEGRAM_CHAT_ID = '804908740'
+TELEGRAM_TOKEN = ''
+TELEGRAM_CHAT_ID = ''
 
 def carregar_tarefas():
     try:
